@@ -34,7 +34,6 @@
         }
     }
     ?>
-    <div class="kalkulator">
         <h2 class="judul">Konverter mata uang</h2>
         <form method="post" action="conv.php">
             <input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Masukan nominal diconvert " >
@@ -53,6 +52,5 @@
         <?php }else{ ?>
             <input type="text" placeholder="Rp." class="bil">
         <?php } ?>
-    </div>
 </body>
 </html>
